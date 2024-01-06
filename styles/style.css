@@ -1,0 +1,118 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+.header{
+    background-color: white;
+    background-image: url("../images/banner/banner1.png");
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    background-position: top;
+
+    
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    padding: 20px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+    /*text-align: right;*/
+    justify-content: space-between;
+}
+.banner-left{
+    margin: 25%;
+}
+.banner-right{
+    margin-top: 215px;
+    padding-bottom: 166px;
+    margin-right: 230px;
+    text-align: right;
+    max-width: 525px;
+}
+.banner-title{
+    color: #151414;
+    margin-bottom: 24px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-des{
+
+    color: #444343;
+    text-align: right;
+    /*max-width: 500px;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 32px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+/* Previous Year Style */
+.previous-year-container{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 322px 130px 206px;
+    /*margin-left: 206px;
+    margin-right: 322px;
+    margin-top: 140px;
+    margin-bottom: 130px;*/
+}
+.previous-year-right{
+    margin-left: 84px;
+    text-align: left;
+    margin-top: 230px;
+}
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+.previous-year-des{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 24px 0 16px 0;
+}
+.previous-year-right ul{
+    list-style: none;
+    /*
+    list-style-image: url(../images/icons/check-solid.svg);
+    */
+    margin: 0;
+    padding: 0;
+}
+.previous-year-right li{
+    /*padding-inline-start: 10px;*/
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 8px;
+}
+.green{
+    color: #16D887;
+}
+
+
+
+
+
+
+
+
+
+
+
